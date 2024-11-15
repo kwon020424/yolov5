@@ -11,6 +11,11 @@ yolov5 학습 보고서
 # 영상
 유튜브를 이용하여 학습할 영상 선택(뉴스1,뉴스2,한문철)
 
+https://www.youtube.com/watch?v=J9Jmw96IapQ
+https://www.youtube.com/watch?v=bQPierde9ig
+https://www.youtube.com/watch?v=QY95vS8MIKA&t=5s
+
+
 # 학습을 위한 라벨링
 
 # 영상 확인
