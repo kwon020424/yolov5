@@ -4,6 +4,9 @@ yolov5 학습 보고서
 # 주제
 도로 위에 사고를 유발하는 포트홀을 구분하여 사고 방지 및 주행에 도움을 주자.
 
+![image](https://github.com/user-attachments/assets/47d8b6ce-dd1d-412a-9a8f-82803147acb2)
+
+
 # 영상
 유튜브를 이용하여 학습할 영상 선택(뉴스1,뉴스2,한문철)
 
