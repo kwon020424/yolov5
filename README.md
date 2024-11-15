@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/d9ae8c59-161b-47a6-9b92-1821d2543211
 
 ![스크린샷 2024-11-15 102747](https://github.com/user-attachments/assets/36798870-92e3-4fd2-9bff-1977a72e4e5d)
 
-# 결과
+# 결과 및 영상
  
  ![R_curve](https://github.com/user-attachments/assets/7a7242cf-2798-4734-b8f3-65585ce0e6d7)
 
@@ -74,9 +74,4 @@ https://github.com/user-attachments/assets/d9ae8c59-161b-47a6-9b92-1821d2543211
 
  ![confusion_matrix](https://github.com/user-attachments/assets/359a7925-4d2e-494f-b9fa-ca5dccb7322e)
 
-
-
-
-
-
-
+https://github.com/user-attachments/assets/adbd3d53-0971-4dc2-b312-6a4fbd005456
