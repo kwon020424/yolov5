@@ -75,3 +75,16 @@ https://github.com/user-attachments/assets/d9ae8c59-161b-47a6-9b92-1821d2543211
  ![confusion_matrix](https://github.com/user-attachments/assets/359a7925-4d2e-494f-b9fa-ca5dccb7322e)
 
 https://github.com/user-attachments/assets/adbd3d53-0971-4dc2-b312-6a4fbd005456
+
+# 원본영상
+
+
+https://github.com/user-attachments/assets/6008079a-06b0-413e-8f5e-c59d99400fcf
+
+
+https://github.com/user-attachments/assets/8a13c01f-d394-49aa-8569-2c0762b5ea67
+
+
+
+
+
