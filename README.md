@@ -2,26 +2,45 @@
 yolov5 학습 보고서
 
 # 주제
-도로 위에 사고를 유발하는 포트홀을 구분하여 사고 방지 및 주행에 도움을 주자.
+ 최근 한국에서 도로에 균열이 생겨 움푹 패이는 '포트홀'이 크게 늘었습니다. 겨울에 눈이 많이 온 데다 이상 기후로 땅이 얼었다 녹기를 반복했고, 
+눈을 빠르게 치우기 위해서 염화칼륨을 사용하게 되는데 이것이 나중에 녹으면서 아스팔트에 문제가 생기는 것에 원인이 있는 것으로 보인다. 
+이것으로 인해 도로위의 사고와 도로 불편이 야기 되고 있다. 또한, 포트홀로 생기는 문제에 대하여 보험처리를 하기 위해서는 증거를 제시해야 한다. 
+이러한 상황을 해결하기 위해서는 자동차 자체에서 포트홀을 판단하고 이것을 피해 주행을 하거나 수리팀에게 이것을 알려주어 고칠 수 있게 해야 할 것으로 보인다.
+따라서 이것을 인공지능에게 학습시켜 포틀홀을 구분할수 있게 하려 한다.
 
+ Recently, the number of "potholes" that are hollowed out due to cracks in roads in Korea has increased significantly. It snowed a lot in winter and the ground froze and melted due to the abnormal climate,
+Potassium chloride is used to quickly remove snow, which seems to be the cause of problems with asphalt as it melts later.
+This is causing accidents on the road and inconvenience on the road. In addition, evidence must be provided in order to treat the problem of potholes.
+In order to solve this situation, it seems that the car itself should judge the pothole and drive away from it or inform the repair team so that it can be fixed.
+Therefore, I want to learn this from artificial intelligence so that I can distinguish between port holes.
+ 
 ![image](https://github.com/user-attachments/assets/47d8b6ce-dd1d-412a-9a8f-82803147acb2) 
 ![image](https://github.com/user-attachments/assets/815201f9-f185-490a-b809-0df650070b2b)
 
 
 # 영상
-유튜브를 이용하여 학습할 영상 선택(뉴스1,뉴스2,한문철)
+인공지능을 학습기키기 위해 영상 3개를 수집했습니다.
+
+I collected three videos to learn artificial intelligence.
 
 https://www.youtube.com/watch?v=J9Jmw96IapQ 
-
+(뉴스1)
 https://www.youtube.com/watch?v=bQPierde9ig 
-
+(뉴스2)
 https://www.youtube.com/watch?v=QY95vS8MIKA&t=5s 
+(유튜버 한문철)
 
 위의 영상 3개를 clipchamp로 편집하여 1개의 학습 영상 제작
+
+Edit the three images above with clipchamp to produce one learning video.
 
 ![image](https://github.com/user-attachments/assets/d9a9eea2-65f7-45b3-8945-5ec8f4ada7d8)
 
 # 학습을 위한 라벨링
+
+학습을 위하여 영상을 포트홀들을 DrakLabel을 이용하여 라벨링을 함.
+
+For learning, potholes are labeled using DragLabel.
 
 ![image](https://github.com/user-attachments/assets/1dedb0e1-fd0d-40bd-afb8-bf569354037a)
 
