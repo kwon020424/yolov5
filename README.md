@@ -51,19 +51,26 @@ https://github.com/user-attachments/assets/d9ae8c59-161b-47a6-9b92-1821d2543211
 
 # 학습
 
+Google Colaboratory을 이용하여 파이썬으로 학습.
+Learning with Python using Google Colaboratory.
+
 1.구글 드라이브 연동
+1.Google Drive Interworking
 
 ![스크린샷 2024-11-15 102609](https://github.com/user-attachments/assets/eccec042-c447-4a20-978e-adfaaa2aeb80)
 
 2.필요 정보 다운로드
+2. Download required information
 
 ![스크린샷 2024-11-15 102618](https://github.com/user-attachments/assets/ca4dcaab-f2eb-4c1a-baed-eed7ca073d30)
 
 3.필요 폴더 생성
+3.Create required folders
 
 ![스크린샷 2024-11-15 102624](https://github.com/user-attachments/assets/a246be7f-b82b-45c3-a4c3-6056e4edc4d5)
 
 4.검증 데이터 생성
+4.Creating Verification Data
 
 ![스크린샷 2024-11-15 102642](https://github.com/user-attachments/assets/60fd37c2-e69a-4314-abf1-d96be71d6d6a)
 
@@ -74,6 +81,7 @@ https://github.com/user-attachments/assets/d9ae8c59-161b-47a6-9b92-1821d2543211
 ![스크린샷 2024-11-15 102709](https://github.com/user-attachments/assets/c963e324-23b2-4dd2-ba9c-6bbc4e056be5)
 
 5.학습
+5.Learning
 
 ![스크린샷 2024-11-15 102726](https://github.com/user-attachments/assets/7fcaa912-b445-48cb-ac2b-4fe6c22af673)
 
