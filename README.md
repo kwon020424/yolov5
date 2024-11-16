@@ -92,6 +92,9 @@ Learning with Python using Google Colaboratory.
 ![스크린샷 2024-11-15 102747](https://github.com/user-attachments/assets/36798870-92e3-4fd2-9bff-1977a72e4e5d)
 
 # 결과 및 영상
+
+학습시킨 데이터를 여러가지 방식으로 유용성과 정확성을 판단 및 영상으로 테스트를 해봄.
+Determine the usefulness and accuracy of the learned data in various ways and test them with images.
  
  ![R_curve](https://github.com/user-attachments/assets/7a7242cf-2798-4734-b8f3-65585ce0e6d7)
 
