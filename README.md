@@ -25,8 +25,10 @@ I collected three videos to learn artificial intelligence.
 
 https://www.youtube.com/watch?v=J9Jmw96IapQ 
 (뉴스1)
+
 https://www.youtube.com/watch?v=bQPierde9ig 
 (뉴스2)
+
 https://www.youtube.com/watch?v=QY95vS8MIKA&t=5s 
 (유튜버 한문철)
 
