@@ -1,103 +1,93 @@
-# yolov5
-yolov5 learning report
+YOLOv5 Pothole Detection Project
+Overview
+Potholes on roads have become a significant issue in Korea due to abnormal climate conditions. The repeated freezing and thawing of roads, coupled with the use of potassium chloride for snow removal, have contributed to asphalt degradation. These potholes not only cause accidents but also disrupt transportation.
 
-# subject
- Recently, the number of "potholes" that are hollowed out due to cracks in roads in Korea has increased significantly. It snowed a lot in winter and the ground froze and melted due to the abnormal climate,
-Potassium chloride is used to quickly remove snow, which seems to be the cause of problems with asphalt as it melts later.
-This is causing accidents on the road and inconvenience on the road. In addition, evidence must be provided in order to treat the problem of potholes.
-In order to solve this situation, it seems that the car itself should judge the pothole and drive away from it or inform the repair team so that it can be fixed.
-Therefore, I want to learn this from artificial intelligence so that I can distinguish between port holes.
- 
-![image](https://github.com/user-attachments/assets/47d8b6ce-dd1d-412a-9a8f-82803147acb2) 
-![image](https://github.com/user-attachments/assets/815201f9-f185-490a-b809-0df650070b2b)
+This project utilizes YOLOv5 to develop a real-time pothole detection system. The system can help vehicles avoid potholes and notify maintenance teams for timely repairs.
 
-# video
+Project Structure
+plaintext
+코드 복사
+├── data.yaml                # Dataset configuration file
+├── dataset/                 # Dataset folder
+│   ├── train/               # Training images and labels
+│   ├── val/                 # Validation images and labels
+│   └── test/                # Test images
+├── yolov5/                  # YOLOv5 repository
+│   ├── models/              # Model configuration files
+│   └── runs/                # Training results
+├── README.md                # Project documentation
+└── detect.py                # Script for running inference
+Dataset
+Video Sources
+Three videos were collected to create the dataset:
 
-I collected three videos to learn artificial intelligence.
+News 1
+News 2
+YouTuber Han Mun-chul
+The videos were edited using Clipchamp to create a unified training video.
 
-https://www.youtube.com/watch?v=J9Jmw96IapQ 
-(뉴스1)
+Annotation
+Annotations were created using DragLabel, labeling potholes in individual frames.
 
-https://www.youtube.com/watch?v=bQPierde9ig 
-(뉴스2)
+Installation
+Clone the YOLOv5 repository:
 
-https://www.youtube.com/watch?v=QY95vS8MIKA&t=5s 
-(유튜버 한문철)
+bash
+코드 복사
+git clone https://github.com/ultralytics/yolov5.git
+cd yolov5
+Install dependencies:
 
-Edit the three images above with clipchamp to produce one learning video.
+bash
+코드 복사
+pip install -r requirements.txt
+Prepare the dataset:
 
-![image](https://github.com/user-attachments/assets/d9a9eea2-65f7-45b3-8945-5ec8f4ada7d8)
+Place the annotated images and labels in the dataset/train, dataset/val, and dataset/test folders.
+Training
+Run the following command to train the model:
 
-# Labeling for learning
+bash
+코드 복사
+python train.py --img 640 --batch 16 --epochs 2000 --data ./data.yaml --cfg ./models/yolov5n.yaml --weights yolov5n.pt --name pothole --patience 0
+Parameters:
+--img 640: Image size (640x640).
+--batch 16: Batch size for training.
+--epochs 2000: Number of training epochs.
+--data ./data.yaml: Path to the dataset configuration file.
+--cfg ./models/yolov5n.yaml: Model configuration file.
+--weights yolov5n.pt: Pre-trained weights.
+--name pothole: Name for saving training results.
+Results
+Performance Metrics
+Precision-Recall Curve:
 
-For learning, potholes are labeled using DragLabel.
+F1 Score Curve:
 
-![image](https://github.com/user-attachments/assets/1dedb0e1-fd0d-40bd-afb8-bf569354037a)
+Confusion Matrix:
 
-
-https://github.com/user-attachments/assets/d9ae8c59-161b-47a6-9b92-1821d2543211
-
-# learning
-
-Learning with Python using Google Colaboratory.
-
-1.Google Drive Interworking
-
-![스크린샷 2024-11-15 102609](https://github.com/user-attachments/assets/eccec042-c447-4a20-978e-adfaaa2aeb80)
-
-2. Download required information
-
-![스크린샷 2024-11-15 102618](https://github.com/user-attachments/assets/ca4dcaab-f2eb-4c1a-baed-eed7ca073d30)
-
-3.Create required folders
-
-![스크린샷 2024-11-15 102624](https://github.com/user-attachments/assets/a246be7f-b82b-45c3-a4c3-6056e4edc4d5)
-
-4.Creating Verification Data
-
-![스크린샷 2024-11-15 102642](https://github.com/user-attachments/assets/60fd37c2-e69a-4314-abf1-d96be71d6d6a)
-
-![스크린샷 2024-11-15 102647](https://github.com/user-attachments/assets/899f176b-a017-426d-abf9-ad8296bc4530)
-
-![스크린샷 2024-11-15 102655](https://github.com/user-attachments/assets/dc5c2da0-86c5-4900-8980-09832e38e387)
-
-![스크린샷 2024-11-15 102709](https://github.com/user-attachments/assets/c963e324-23b2-4dd2-ba9c-6bbc4e056be5)
-
-5.Learning
-
-![스크린샷 2024-11-15 102726](https://github.com/user-attachments/assets/7fcaa912-b445-48cb-ac2b-4fe6c22af673)
-
-![스크린샷 2024-11-15 102735](https://github.com/user-attachments/assets/6048911e-ab16-4a69-a2eb-08281d0d89dd)
-
-![스크린샷 2024-11-15 102740](https://github.com/user-attachments/assets/3f6a5c00-32b9-4c84-b46e-46701cee9222)
-
-![스크린샷 2024-11-15 102747](https://github.com/user-attachments/assets/36798870-92e3-4fd2-9bff-1977a72e4e5d)
-
-# Results & Videos
-
-Determine the usefulness and accuracy of the learned data in various ways and test them with images.
- 
- ![R_curve](https://github.com/user-attachments/assets/7a7242cf-2798-4734-b8f3-65585ce0e6d7)
-
- ![PR_curve](https://github.com/user-attachments/assets/8af54716-09ea-4e45-9c3c-13c3f3a73362)
-
- ![P_curve](https://github.com/user-attachments/assets/dad4d78b-76b3-4baf-bed5-ca4c3faaeddb)
-
- ![F1_curve](https://github.com/user-attachments/assets/6e0e16c5-928a-4d15-b538-d0864f02ee35)
-
- ![confusion_matrix](https://github.com/user-attachments/assets/359a7925-4d2e-494f-b9fa-ca5dccb7322e)
-
-https://github.com/user-attachments/assets/adbd3d53-0971-4dc2-b312-6a4fbd005456
-
-# Original video
-
-
-https://github.com/user-attachments/assets/6008079a-06b0-413e-8f5e-c59d99400fcf
-
-
-https://github.com/user-attachments/assets/8a13c01f-d394-49aa-8569-2c0762b5ea67
+Test Outputs
+Sample pothole detection results:
 
 
 
+Detection Video
+Trained Detection Video
 
+Usage
+Run inference on test images or videos using the trained model:
 
+Inference on test images:
+
+bash
+코드 복사
+python detect.py --weights runs/train/pothole/weights/best.pt --img 640 --source dataset/test/images --name pothole_detect
+Inference on video:
+
+bash
+코드 복사
+python detect.py --weights runs/train/pothole/weights/best.pt --source video.mp4 --name pothole_detect
+Future Work
+Expand the dataset to include more diverse road conditions.
+Deploy the model on edge devices (e.g., NVIDIA Jetson) for real-time applications.
+This project is a step toward improving road safety by detecting and addressing potholes efficiently.
