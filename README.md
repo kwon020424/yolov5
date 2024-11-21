@@ -89,6 +89,15 @@ Determine the usefulness and accuracy of the learned data in various ways and te
 
 https://github.com/user-attachments/assets/adbd3d53-0971-4dc2-b312-6a4fbd005456
 
+# jackson nano video
+
+https://github.com/user-attachments/assets/1b301d3d-feba-4591-831f-ad489dcba0fe
+
+https://github.com/user-attachments/assets/a76a0b0d-1559-4ca2-b99a-9962002a7de8
+
+https://github.com/user-attachments/assets/564c0fdb-eeb8-4c25-9c91-22f512a11689
+
+
 # Original video
 
 
