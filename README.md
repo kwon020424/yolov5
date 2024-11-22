@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=QY95vS8MIKA&t=5s
 
 Edit the three images above with clipchamp to produce one learning video.
 
-![image](https://github.com/user-attachments/assets/d9a9eea2-65f7-45b3-8945-5ec8f4ada7d8)
+![image](https://github.com/user-attachments/assets/1b399e1d-a59f-4e09-a9c8-32e90154dfd5)
 
 # Labeling for learning
 
